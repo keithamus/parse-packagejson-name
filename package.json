@@ -2,13 +2,28 @@
   "name": "parse-packagejson-name",
   "version": "0.0.0-development",
   "description": "Parse an npm package name and returns some mildly interesting details about it",
+  "keywords": [
+    "package.json",
+    "parse",
+    "name",
+    "scope"
+  ],
+  "homepage": "https://github.com/keithamus/sort-object-keys#readme",
+  "bugs": {
+    "url": "https://github.com/keithamus/sort-object-keys/issues"
+  },
   "license": "MIT",
   "author": "Keith Cirkel <npm@keithcirkel.co.uk> (http://keithcirkel.co.uk/)",
   "files": [
     "index.js"
   ],
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/keithamus/parse-packagejson-name.git"
+  },
   "scripts": {
+    "semantic-release": "travis-after-all && semantic-release pre && npm publish && semantic-release post",
     "test": "mocha test.js"
   },
   "devDependencies": {
