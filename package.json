@@ -3,9 +3,9 @@
   "version": "0.0.0-development",
   "description": "Parse an npm package name and returns some mildly interesting details about it",
   "keywords": [
+    "name",
     "package.json",
     "parse",
-    "name",
     "scope"
   ],
   "homepage": "https://github.com/keithamus/sort-object-keys#readme",
@@ -26,10 +26,18 @@
     "semantic-release": "travis-after-all && semantic-release pre && npm publish && semantic-release post",
     "test": "mocha test.js"
   },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm t",
+      "commit-msg": "validate-commit-msg"
+    }
+  },
   "devDependencies": {
     "chai": "^3.4.1",
+    "ghooks": "^1.0.1",
     "mocha": "^2.3.4",
     "semantic-release": "^4.3.5",
-    "travis-after-all": "^1.4.4"
+    "travis-after-all": "^1.4.4",
+    "validate-commit-msg": "^1.0.0"
   }
 }
