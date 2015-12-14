@@ -1,15 +1,17 @@
 {
   "name": "parse-packagejson-name",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Parse an npm package name and returns some mildly interesting details about it",
+  "license": "MIT",
+  "author": "Keith Cirkel <npm@keithcirkel.co.uk> (http://keithcirkel.co.uk/)",
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js"
   },
-  "author": "Keith Cirkel <npm@keithcirkel.co.uk> (http://keithcirkel.co.uk/)",
-  "license": "MIT",
   "devDependencies": {
     "chai": "^3.4.1",
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "semantic-release": "^4.3.5",
+    "travis-after-all": "^1.4.4"
   }
 }
