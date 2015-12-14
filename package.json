@@ -4,6 +4,9 @@
   "description": "Parse an npm package name and returns some mildly interesting details about it",
   "license": "MIT",
   "author": "Keith Cirkel <npm@keithcirkel.co.uk> (http://keithcirkel.co.uk/)",
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js"
