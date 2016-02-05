@@ -38,6 +38,6 @@
     "mocha": "^2.3.4",
     "semantic-release": "^4.3.5",
     "travis-after-all": "^1.4.4",
-    "validate-commit-msg": "^1.0.0"
+    "validate-commit-msg": "^2.0.0"
   }
 }
