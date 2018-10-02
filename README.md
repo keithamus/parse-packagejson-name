@@ -10,7 +10,7 @@ A very simple package to parse an npm package name and return some mildly intere
 ### Example
 
 ```js
-var parsePackageJsonName = require('parsePackageJsonName');
+var parsePackageJsonName = require('parse-packagejson-name');
 
 parsePackageJsonName('@foo/blip.blop').should.deep.equal({
   scope: 'foo',
