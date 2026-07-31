@@ -6,7 +6,7 @@ export interface ParsedPackageName {
 }
 
 declare function parsePackageJsonName(
-  name: string | { name?: string }
+  name?: string | { name?: string }
 ): ParsedPackageName;
 
 export = parsePackageJsonName;
